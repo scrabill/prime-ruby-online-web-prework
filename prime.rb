@@ -4,6 +4,9 @@ require "pry"
 
 def prime?(number)
 
+  if number < 2
+    return false
+
   range = 2...number #excludes last number
 
   return_of_iteration = range.find{|x| number % x == 0} #condensed do and ends. return execute one time, then it stops. .collect, select, find (first)
