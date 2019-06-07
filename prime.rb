@@ -2,11 +2,14 @@
 
 number = 8
 
-range = 2...number
 
-def prime?(range,number)
+
+def prime?(number)
+
+  range = 2...number
+
   range.each{|x| return number % x}
-  
+
   if return_of_x == 0
     return false
   else
