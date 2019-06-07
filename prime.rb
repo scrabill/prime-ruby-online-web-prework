@@ -4,6 +4,9 @@ require "pry"
 
 def prime?(number)
 
+return_of_iteration = ""
+
+
   if number < 2
     return false
   else
