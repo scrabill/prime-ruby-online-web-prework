@@ -10,7 +10,7 @@ def prime?(number)
 
   range.find{|x| number % x == 0} #condensed do and ends. return execute one time, then it stops. .collect, select, find (first)
 
-  if return_of_x == 0
+  if return_of_iteration == 0
     return false
   else
     return true
