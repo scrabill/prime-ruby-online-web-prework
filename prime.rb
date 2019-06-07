@@ -6,7 +6,7 @@ number = 8
 
 def prime?(number)
 
-  range = 2...number
+  range = 2...number #excludes number
 
   range.each{|x| return number % x}
 
