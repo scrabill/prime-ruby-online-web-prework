@@ -54,4 +54,4 @@ end
 
 number = 8
 
-prime?(range,number)
+prime?(number)
