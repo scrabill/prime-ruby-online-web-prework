@@ -10,7 +10,7 @@ def prime?(number)
 
   binding.pry
 
-  if return_of_iteration = nil
+  if return_of_iteration == nil
 
   if return_of_iteration == 0
     return false
