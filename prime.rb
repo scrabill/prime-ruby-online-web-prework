@@ -2,7 +2,7 @@
 
 number = 8
 
-range = 1...number
+range = 2...number
 
 def prime?(range,number)
   range.each{|x| return number % x}
