@@ -8,7 +8,7 @@ def prime?(number)
 
   range = 2...number #excludes last number
 
-  range.each{|x| return number % x} #condensed do and ends. return execute one time, then it stops
+  range.each{|x| return number % x} #condensed do and ends. return execute one time, then it stops. .collect, select, find
 
   if return_of_x == 0
     return false
