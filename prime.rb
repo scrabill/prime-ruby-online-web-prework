@@ -6,7 +6,7 @@ def prime?(number)
 
   if number < 2
     return false
-  elsif condition
+  else condition
 
 
   range = 2...number #excludes last number
