@@ -14,12 +14,6 @@ def prime?(number)
     return true
   else
     return false
-
-
-  if return_of_iteration == 0
-    return false
-  else
-    return true
   end
 end
 
