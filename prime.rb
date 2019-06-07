@@ -53,4 +53,4 @@ end
 
 # number = 8
 
-prime?(number)
+# prime?(number)
